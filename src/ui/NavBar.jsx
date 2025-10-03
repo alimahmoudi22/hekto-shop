@@ -4,7 +4,7 @@ import HektoLogo from "../assets/Hekto.svg";
 
 const NavBar = () => {
   return (
-    <div className="mt-5 container">
+    <div className="my-5 container">
       <div className="flex items-center justify-between">
         <ul className="flex items-center gap-x-6 text-sm lg:text-base lg:gap-x-9">
           <li className="mr-2 lg:mr-13">
