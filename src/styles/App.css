@@ -13,30 +13,32 @@
 }
 
 @utility flexCenter {
-  @apply flex items-center justify-center
+  @apply flex items-center justify-center;
 }
 
 @theme {
   --color-headerViolet: #7e33e0;
   --color-headerwhite: #f1f1f1;
   --color-headerPink: #fb2e86;
-  --color-headerStroke: #E7E6EF;
+  --color-headerStroke: #e7e6ef;
 
-  --color-heroBannerBG: #F2F0FF;
-  --color-heroBannerSubText: #8A8FB9;
-  --color-heroBannerCircles: #ECD2FA;
+  --color-heroBannerBG: #f2f0ff;
+  --color-heroBannerSubText: #8a8fb9;
+  --color-heroBannerCircles: #ecd2fa;
 
-  --color-sectionTitle: #1A0B5B;
+  --color-sectionTitle: #1a0b5b;
 
-  --color-featuredGreen: #08D15F;
-  --color-featuredButtonsBG: #EEEFFB;
-  --color-featuredBlue: #2F1AC4;
-  --color-featuredLightBlue: #1389FF;
-  --color-featuredPictureBG: #F6F7FB;
-  --color-featuredPictureHoverBG: #F7F7F7;
+  --color-featuredGreen: #08d15f;
+  --color-featuredButtonsBG: #eeeffb;
+  --color-featuredBlue: #2f1ac4;
+  --color-featuredLightBlue: #1389ff;
+  --color-featuredPictureBG: #f6f7fb;
+  --color-featuredPictureHoverBG: #f7f7f7;
   --color-featuredDescriptionText: #151875;
 
-  --color-mainBannerBG: #F1F0FF;
+  --color-mainBannerBG: #f1f0ff;
+
+  --color-trendingProductBG: #f5f6f8;
 
   --shadow-hektoFeatured: 0 0 25px rgba(0, 0, 0, 10%);
   --shadow-hektoOffer: 0 0 25px rgba(0, 0, 0, 5%);
