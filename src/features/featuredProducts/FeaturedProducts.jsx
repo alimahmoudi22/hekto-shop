@@ -10,10 +10,10 @@ import FeaturedProductCard from "./FeaturedProductCard";
 
 import SectionTitle from "../../ui/SectionTitle";
 
-import image1 from "../../assets/home/FeaturedProducts/image1.png";
-import image2 from "../../assets/home/FeaturedProducts/image2.png";
-import image3 from "../../assets/home/FeaturedProducts/image3.png";
-import image4 from "../../assets/home/FeaturedProducts/image4.png";
+import image1 from "../../assets/home/featuredProducts/image1.png";
+import image2 from "../../assets/home/featuredProducts/image2.png";
+import image3 from "../../assets/home/featuredProducts/image3.png";
+import image4 from "../../assets/home/featuredProducts/image4.png";
 
 const FeaturedProducts = () => {
   const [data] = useState([

@@ -2,12 +2,12 @@ import SectionTitle from "../../ui/SectionTitle";
 
 import LatestProductCard from "./LatestProductCard";
 
-import image1 from "../../assets/home/LatestProducts/image1.png";
-import image2 from "../../assets/home/LatestProducts/image2.png";
-import image3 from "../../assets/home/LatestProducts/image3.png";
-import image4 from "../../assets/home/LatestProducts/image4.png";
-import image5 from "../../assets/home/LatestProducts/image5.png";
-import image6 from "../../assets/home/LatestProducts/image6.png";
+import image1 from "../../assets/home/latestProducts/image1.png";
+import image2 from "../../assets/home/latestProducts/image2.png";
+import image3 from "../../assets/home/latestProducts/image3.png";
+import image4 from "../../assets/home/latestProducts/image4.png";
+import image5 from "../../assets/home/latestProducts/image5.png";
+import image6 from "../../assets/home/latestProducts/image6.png";
 
 const fakeData = [
   {

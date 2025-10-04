@@ -1,16 +1,18 @@
 import React from "react";
-import MainBanner from "../features/mainBanner/MainBanner";
+import HeroBanner from "../features/heroBanner/HeroBanner";
 import FeaturedProducts from "../features/featuredProducts/FeaturedProducts";
 import LatestProducts from "../features/latestProducts/LatestProducts";
 import Offer from "../features/offer/Offer";
+import MainBanner from "../features/MainBanner/MainBanner";
 
 const Home = () => {
   return (
     <main>
-      <MainBanner />
+      <HeroBanner />
       <FeaturedProducts />
       <LatestProducts />
       <Offer />
+      <MainBanner />
     </main>
   );
 };

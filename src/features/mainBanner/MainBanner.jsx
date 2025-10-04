@@ -1,42 +1,50 @@
+import ProductImage from "../../assets/home/mainBanner/Home-Stylish-Club-Sofa-Chair-Pleated-Sofa-Armchair-with-Golden-Legs 1.png";
+import Elipse from "../../assets/home/mainBanner/Ellipse 63.svg";
+
+import MainBannerDetails from "./MainBannerDetails";
 import LinkButton from "../../ui/LinkButton";
-import chair from "../../assets/home/mainBanner/chair.png";
-import louster from "../../assets/home/mainBanner/louster.png";
-import OffLable from "./OffLable";
 
 const MainBanner = () => {
   return (
-    <section className="bg-mainBannerBG relative">
-      <div className="container flex items-center justify-center pt-25 pb-9 flex-wrap-reverse gap-6 xl:justify-between">
-        <div className="flex flex-col justify-center text-center xl:text-left">
-          <h5 className="text-headerPink font-bold ">
-            Best Furniture For Your Castle....
-          </h5>
-          <h1 className="font-josefin font-bold text-[40px] my-3 max-w-131">
-            New Furniture Collection Trends in 2020
-          </h1>
-          <p className="font-bold text-mainBannerSubText mb-7 max-w-128">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in
-            est adipiscing in phasellus non in justo.
-          </p>
-          <LinkButton to={"/product/:id"} type={"primary"}>
-            Shop Now
-          </LinkButton>
-        </div>
-        <div className="relative z-5 flex">
-          <img
-            src={chair}
-            alt="Wooden armchair with cushions"
-            className="z-10"
-          />
-          <div className="size-152 bg-mainBannerCircles/35 rounded-full absolute bottom-2 z-4 2xl:size-162 hidden md:block"></div>
-          <div className="size-152 bg-mainBannerCircles/35 rounded-full absolute bottom-4 left-14 z-4 2xl:size-162 hidden md:block"></div>
-          <OffLable />
+    <section className="mainBanner mt-30 bg-mainBannerBG text-featuredDescriptionText">
+      <div className="container">
+        <div className="wrapper flex flex-col items-center justify-center lg:flex-row lg:justify-between gap-x-1 flex-wrap pl-20 pr-15">
+          <div className="left relative z-10">
+            <img
+              src={ProductImage}
+              alt="ProductImage"
+              className="z-10 relative"
+            />
+            <img
+              src={Elipse}
+              alt="mainBanner Bg"
+              className="absolute top-9 right-18"
+            />
+          </div>
+
+          <div className="right">
+            <h3 className="font-josefin font-bold lg:max-w-127 text-xl md:text-2xl lg:text-3xl leading-10 xl:text-4xl xl:leading-12 text-center lg:text-left">
+              Unique Features Of leatest & Trending Poducts
+            </h3>
+
+            <MainBannerDetails />
+
+            <div className="Buy flex items-center gap-x-5 mt-9 mb-10">
+              <LinkButton type={"primary"} to={"/shop"}>
+                Shop Now
+              </LinkButton>
+              <div className="price">
+                <p className="font-josefine font-semibold text-sm">
+                  B&B Italian Sofa
+                </p>
+                <span className="font-lato font-semibold text-sm text-featuredDescriptionText">
+                  $32.00
+                </span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div className="absolute top-0 left-12 hidden 2xl:block">
-        <img src={louster} alt="Hanging lamp fixture" />
-      </div>
-      <div className="absolute bg-headerPink size-4 rounded-full  bottom-56 left-46 hidden 2xl:block"></div>
     </section>
   );
 };

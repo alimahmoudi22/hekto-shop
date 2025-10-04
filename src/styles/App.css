@@ -22,9 +22,9 @@
   --color-headerPink: #fb2e86;
   --color-headerStroke: #E7E6EF;
 
-  --color-mainBannerBG: #F2F0FF;
-  --color-mainBannerSubText: #8A8FB9;
-  --color-mainBannerCircles: #ECD2FA;
+  --color-heroBannerBG: #F2F0FF;
+  --color-heroBannerSubText: #8A8FB9;
+  --color-heroBannerCircles: #ECD2FA;
 
   --color-sectionTitle: #1A0B5B;
 
@@ -35,6 +35,8 @@
   --color-featuredPictureBG: #F6F7FB;
   --color-featuredPictureHoverBG: #F7F7F7;
   --color-featuredDescriptionText: #151875;
+
+  --color-mainBannerBG: #F1F0FF;
 
   --shadow-hektoFeatured: 0 0 25px rgba(0, 0, 0, 10%);
   --shadow-hektoOffer: 0 0 25px rgba(0, 0, 0, 5%);

@@ -1,4 +1,4 @@
-import offBG from "../../assets/home/mainBanner/offBG.svg";
+import offBG from "../../assets/home/heroBanner/offBG.svg";
 
 const OffLable = () => {
   return (
