@@ -1,6 +1,6 @@
 import { Search } from "lucide-react";
 import { NavLink } from "react-router";
-import HektoLogo from "../assets/Hekto.svg";
+import HektoLogo from "../../assets/Hekto.svg";
 
 const NavBar = () => {
   return (
