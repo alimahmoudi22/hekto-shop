@@ -1,6 +1,6 @@
-import LinkButton from "./LinkButton";
-import chair from "../assets/home/mainBanner/chair.png";
-import louster from "../assets/home/mainBanner/louster.png";
+import LinkButton from "../../ui/LinkButton";
+import chair from "../../assets/home/mainBanner/chair.png";
+import louster from "../../assets/home/mainBanner/louster.png";
 import OffLable from "./OffLable";
 
 const MainBanner = () => {

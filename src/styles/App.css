@@ -12,14 +12,32 @@
   @apply xl:max-w-[1209px];
 }
 
+@utility flexCenter {
+  @apply flex items-center justify-center
+}
+
 @theme {
   --color-headerViolet: #7e33e0;
   --color-headerwhite: #f1f1f1;
   --color-headerPink: #fb2e86;
   --color-headerStroke: #E7E6EF;
+
   --color-mainBannerBG: #F2F0FF;
   --color-mainBannerSubText: #8A8FB9;
   --color-mainBannerCircles: #ECD2FA;
+
+  --color-sectionTitle: #1A0B5B;
+
+  --color-featuredGreen: #08D15F;
+  --color-featuredButtonsBG: #EEEFFB;
+  --color-featuredBlue: #2F1AC4;
+  --color-featuredLightBlue: #1389FF;
+  --color-featuredPictureBG: #F6F7FB;
+  --color-featuredPictureHoverBG: #F7F7F7;
+  --color-featuredDescriptionText: #151875;
+
+  --shadow-hektoFeatured: 0 0 25px rgba(0, 0, 0, 10%);
+  --shadow-hektoOffer: 0 0 25px rgba(0, 0, 0, 5%);
 
   --font-josefin: "Josefin Sans", sans-serif;
   --font-lato: "Lato", sans-serif;

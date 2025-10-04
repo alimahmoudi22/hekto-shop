@@ -1,0 +1,21 @@
+.swiper-pagination {
+    position: relative;
+    margin-top: 40PX;
+}
+
+.F-custom-bullet {
+  display: inline-block;
+  background-color: #FEBAD7; /* Inactive color */
+  width: 16px;
+  height: 4px;
+  border-radius: 10px;
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+.F-custom-bullet-active {
+  display: inline-block;
+  background-color: #FB2E86; /* Active color */
+  width: 24px;
+  border-radius: 10px;
+}
