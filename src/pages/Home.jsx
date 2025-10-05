@@ -7,6 +7,7 @@ import MainBanner from "../features/MainBanner/MainBanner";
 import TrendingProducts from "../features/trendingProducts/TrendingProducts";
 import Discount from "../features/Discount/Discount";
 import TopProducts from "../features/topProducts/TopProducts";
+import Newsletter from "../features/NewsLetter/Newsletter";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <TrendingProducts />
       <Discount />
       <TopProducts />
+      <Newsletter />
     </main>
   );
 };
