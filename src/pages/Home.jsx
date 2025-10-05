@@ -6,6 +6,7 @@ import Offer from "../features/offer/Offer";
 import MainBanner from "../features/MainBanner/MainBanner";
 import TrendingProducts from "../features/trendingProducts/TrendingProducts";
 import Discount from "../features/Discount/Discount";
+import TopProducts from "../features/topProducts/TopProducts";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <MainBanner />
       <TrendingProducts />
       <Discount />
+      <TopProducts />
     </main>
   );
 };

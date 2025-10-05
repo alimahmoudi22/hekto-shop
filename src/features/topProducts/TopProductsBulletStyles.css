@@ -1,0 +1,15 @@
+.T-custom-bullet {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border-color: #fb2e86;
+  border-width: 1px;
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+.T-custom-bullet-active {
+  display: inline-block;
+  background-color: #fb2e86; /* Active color */
+}
