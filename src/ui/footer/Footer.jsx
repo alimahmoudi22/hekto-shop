@@ -3,7 +3,7 @@ import FooterAllRight from "./FooterAllRight";
 
 const Footer = () => {
   return (
-    <section className="Footer bg-featuredButtonsBG pt-23.5 text-heroBannerSubText mt-30">
+    <footer className="Footer bg-featuredButtonsBG pt-23.5 text-heroBannerSubText mt-30">
       <div className="container">
         <div className="wrapper flex justify-between">
           <div className="1">
@@ -63,7 +63,7 @@ const Footer = () => {
         </div>
       </div>
       <FooterAllRight />
-    </section>
+    </footer>
   );
 };
 

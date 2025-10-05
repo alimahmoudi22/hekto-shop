@@ -3,9 +3,9 @@ import { Link } from "react-router";
 
 const TopBar = () => {
   return (
-    <div className="bg-headerViolet text-headerwhite font-josefin font-semibold py-2">
-      <div className="container flex items-center justify-between text-sm lg:text-base">
-        <div className="left flex items-center gap-12">
+    <div className="topBar bg-headerViolet text-headerwhite font-josefin font-semibold py-2">
+      <div className="container flex items-center justify-between text-base">
+        <div className="left flex items-center gap-6 lg:gap-12">
           <div className="email flex items-center gap-x-2.5">
             <Mail />
             <span>mhhasanul@gmail.com</span>

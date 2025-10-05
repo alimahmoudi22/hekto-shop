@@ -1,9 +1,9 @@
-import MobileMenu from "./MobileMenu";
-import DesktopMenu from "./DesktopMenu";
+import MobileMenu from "./mobile/MobileMenu";
+import DesktopMenu from "./desktop/DesktopMenu";
 
 const Header = () => {
   return (
-    <header className="">
+    <header>
       <MobileMenu />
       <DesktopMenu />
     </header>
