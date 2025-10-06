@@ -42,6 +42,9 @@
 
   --color-hektoStroke: #e7e6ef;
 
+  --color-breadCrumbBG: #F6F5FF;
+  --color-breadCrumbTitle: #101750;
+
   --shadow-hektoFeatured: 0 0 25px rgba(0, 0, 0, 10%);
   --shadow-hektoOffer: 0 0 25px rgba(0, 0, 0, 5%);
 

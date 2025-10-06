@@ -1,9 +1,11 @@
-import React from 'react'
+import BreadCrumb from "../ui/breadCrumb/BreadCrumb";
 
 const Shop = () => {
   return (
-    <div>Shop</div>
-  )
-}
+    <main>
+      <BreadCrumb />
+    </main>
+  );
+};
 
-export default Shop
+export default Shop;
