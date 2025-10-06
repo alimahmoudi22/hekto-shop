@@ -3,9 +3,9 @@ import FooterAllRight from "./FooterAllRight";
 
 const Footer = () => {
   return (
-    <footer className="Footer bg-featuredButtonsBG pt-23.5 text-heroBannerSubText mt-30 hidden">
+    <footer className="Footer bg-featuredButtonsBG pt-23.5 text-heroBannerSubText mt-30">
       <div className="container">
-        <div className="wrapper flex justify-between">
+        <div className="wrapper flex justify-between flex-wrap gap-15">
           <div className="1">
             <img src={HektoLogo} alt="hekto-logo" />
             <div className="input flex items-center relative max-w-86 mt-7.5 mb-6">
