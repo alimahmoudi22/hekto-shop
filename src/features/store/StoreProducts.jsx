@@ -1,4 +1,5 @@
 import StoreItemDefault from "./StoreItemDefault";
+import StoreItemList from "./StoreItemList";
 
 import image1 from "../../assets/shop/store/image1.png";
 import image2 from "../../assets/shop/store/image2.png";
@@ -36,6 +37,12 @@ const StoreProducts = () => {
           <StoreItemDefault key={crypto.randomUUID()} image={item} />
         ))}
       </div>
+
+      {/* <div className="flex flex-col items-start gap-8">
+        {fakeData.map((item) => (
+          <StoreItemList key={crypto.randomUUID()} image={item} />
+        ))}
+      </div> */}
     </div>
   );
 };

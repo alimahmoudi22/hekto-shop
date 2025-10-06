@@ -9,10 +9,10 @@ const StoreItemDefault = ({ image }) => {
         <img src={image} alt="storeProduct" />
       </Link>
 
-      <StoreItemBottuns />
+      <StoreItemBottuns type={"absolute"} />
 
       <div className="desc mt-4.5 text-center">
-        <Link className="font-josefine font-bold text-lg">
+        <Link className="font-josefine font-bold text-lg text-featuredDescriptionText">
           Vel elit euismod
         </Link>
         <StoreItemColors />
