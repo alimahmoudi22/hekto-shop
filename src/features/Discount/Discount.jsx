@@ -16,7 +16,7 @@ const Discount = () => {
 
       <div className="container">
         <div className="wrapper flexCenter flex-wrap-reverse xl:flex-nowrap">
-          <div className="left flex flex-col items-center text-center lg:text-left lg:items-start">
+          <div className="left flex flex-col items-center text-center xl:text-left xl:items-start">
             <h3 className="font-josefine font-bold text-featuredDescriptionText text-3xl xl:text-4xl">
               20% Discount Of All Products
             </h3>
@@ -51,7 +51,7 @@ const Discount = () => {
               Shop Now
             </LinkButton>
           </div>
-          <div className="right relative before:absolute before:bg-[#FCECF1] before:size-118 before:rounded-full before:z-4 before:top-22 before:right-26">
+          <div className="right relative before:absolute before:bg-[#FCECF1] before:size-118 before:rounded-full before:z-4 before:top-22 before:right-26 before:hidden md:before:block">
             <img
               src={DiscountProduct}
               alt="DiscountProduct"
