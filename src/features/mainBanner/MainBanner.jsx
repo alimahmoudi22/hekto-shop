@@ -8,7 +8,7 @@ const MainBanner = () => {
   return (
     <section className="mainBanner mt-30 bg-mainBannerBG text-featuredDescriptionText">
       <div className="container">
-        <div className="wrapper flex flex-col items-center justify-center lg:flex-row lg:justify-between gap-x-1 flex-wrap pl-20 pr-15">
+        <div className="wrapper flex flex-col items-center justify-center xl:flex-row xl:justify-between gap-x-1 flex-wrap xl:pl-20 xl:pr-15">
           <div className="left relative z-10">
             <img
               src={ProductImage}
@@ -18,7 +18,7 @@ const MainBanner = () => {
             <img
               src={Elipse}
               alt="mainBanner Bg"
-              className="absolute top-9 right-18"
+              className="absolute top-9 right-18 hidden sm:block"
             />
           </div>
 
