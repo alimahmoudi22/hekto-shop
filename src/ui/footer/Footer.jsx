@@ -3,7 +3,7 @@ import FooterAllRight from "./FooterAllRight";
 
 const Footer = () => {
   return (
-    <footer className="Footer bg-featuredButtonsBG pt-23.5 text-heroBannerSubText mt-30">
+    <footer className="Footer bg-featuredButtonsBG pt-23.5 text-heroBannerSubText mt-30 hidden">
       <div className="container">
         <div className="wrapper flex justify-between">
           <div className="1">

@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 
 const styles = {
-  primary: `py-4 px-10 max-w-41 text-white flex items-center justify-center font-josefin font-semibold`,
+  primary: `py-4 w-28 md:w-41 text-white flex items-center justify-center font-josefin font-semibold`,
 };
 
 const LinkButton = ({ type, to, color = "bg-headerPink", children }) => {

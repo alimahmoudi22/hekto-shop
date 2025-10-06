@@ -47,4 +47,6 @@
 
   --font-josefin: "Josefin Sans", sans-serif;
   --font-lato: "Lato", sans-serif;
+
+  --breakpoint-3xlLouster: 1890px;
 }
