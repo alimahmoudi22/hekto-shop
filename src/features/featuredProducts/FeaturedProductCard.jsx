@@ -5,7 +5,7 @@ import FeaturedProductColors from "./FeaturedProductColors";
 const FeaturedProductCard = ({ image, title, code, price }) => {
   return (
     <div className="featuredProductCard shadow-hektoFeatured group overflow-hidden relative">
-      <Link to={"/product:id"}>
+      <Link to={"/product/:id"}>
         <div className="Picture bg-featuredPictureBG group-hover:bg-featuredPictureHoverBG flexCenter flex-col pb-2">
           <div className="h-59 flexCenter">
             <img src={image} alt="FeaturedProduct1" />
